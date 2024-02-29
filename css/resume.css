@@ -1,0 +1,495 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* задаємо білий колір для фону екрана */
+
+}
+
+
+.left-section {
+    background-color: #323b4b; /* задаємо сірий колір для лівої частини екрана */
+    height: 400vh; /* встановлюємо висоту на 100% висоти вікна браузера */
+    width: 25%; /* встановлюємо ширину лівої частини екрана */
+    float: left; /* вирівнюємо лівий край елемента */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-section {
+    height: 100vh; /* встановлюємо висоту на 100% висоти вікна браузера */
+    margin-left: 30%; /* встановлюємо відступ від лівого краю рівний ширині лівої частини */
+    padding: 20px; /* додаємо внутрішній відступ для кращого вигляду */
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    margin-left: 90px;
+    margin-top: 20px;
+    height: auto;
+}
+
+.left-section h1 {
+    margin-left: 90px;
+    color: white;
+}
+
+.left-section h2 {
+    color: white;
+}
+
+.left-section h3 {
+    color: white;
+    font-size: 20px;
+}
+
+
+.left-section p {
+    padding-left: 20px;
+    color: white;
+    size: 20px;
+}
+
+.left-section .educ {
+    height: 40px;
+    margin-left: -20px;
+    
+}
+
+.left-section .skills {
+    height: 50px;
+    margin-left: -20px;
+    
+}
+
+.cont {
+    border-radius: 8px;
+    border: 20px solid #ccc;
+    padding: 15x;
+    margin-top: 20px;
+    background-color: #232a36;
+    border-color: #232a36;
+    width: 330px;
+    margin-left: 0px;
+}
+
+.educate1 {
+    border-radius: 8px;
+    border: 20px solid #ccc;
+    padding: 15x;
+    margin-top: 20px;
+    background-color: #232a36;
+    border-color: #232a36;
+    width: 330px;
+    margin-left: 0px;
+}
+.educate2 {
+    border-radius: 8px;
+    border: 20px solid #ccc;
+    padding: 15x;
+    margin-top: 20px;
+    background-color: #232a36;
+    border-color: #232a36;
+    width: 330px;
+    margin-left: 0px;
+}
+
+.html, .css, .js {
+    border-radius: 8px;
+    border: 20px solid #ccc;
+    padding: 15x;
+    margin-top: 20px;
+    background-color: #232a36;
+    border-color: #232a36;
+    width: 350px;
+        
+}
+
+.ua, .en, .cz {
+    border-radius: 8px;
+    border: 20px solid #ccc;
+    padding: 15x;
+    margin-top: 20px;
+    background-color: #232a36;
+    border-color: #232a36;
+    width: 330px;
+}
+
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Задайте бажаний відступ в пікселях */
+}
+
+.right-section .portf {
+    height: 40px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+
+.right-section .name {
+    color: #323b4b;
+    font-size: 50px;
+}
+
+.right-section .Pos {
+    font-size: 30px;
+    color: #323b4b;
+}
+
+.right-section .subs {
+    color: #323b4b;
+    font-size: 20px;
+}
+
+.right-section .about {
+    font-size: 30px;
+    color: #212730;
+}
+
+.right-section .more1    {
+    color: #212730;
+    font-size:  20px; 
+}
+
+.right-section .more2   {
+    color: #212730;
+    font-size:  20px; 
+}
+
+.right-section .more3   {
+    color: #212730;
+    font-size:  20px; 
+}
+
+.more1, .more2, .more3 {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додайте тінь */
+    background-color: #B0C4DE;
+    border-color: #B0C4DE;
+    
+}
+
+
+.right-section .addit {
+    font-size: 30px;
+    color: #212730;
+}
+
+.right-section ul {
+    font-size: 20px;
+    color: #212730;
+}
+
+.li1, .li2, .li3 {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #B0C4DE;
+    border-color: #B0C4DE;
+    font-size: 20px;
+}
+
+#lang-toggle {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 750px;
+  }
+  
+  .button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start; /* Змінено значення на flex-start */
+}
+
+.card {
+    width: 80px;
+    border-radius: 0.75rem; /* Виправлено значення */
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8); /* Виправлено значення */
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    color: #323b4b;
+    font-size:  20px;
+    margin-top: 0; 
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+
+}
+
+input:checked + label {
+    width: 800px;
+}
+
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+    background-image: url('Приклад_1.jpg');
+}
+
+.card[for="c2"] {
+    background-image: url('Приклад_2.jpg');
+}
+.card[for="c3"] {
+    background-image: url('дизайн.jpg');
+}
+
+.card[for="c4"] {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/fall-quotes-autumn-beauty-64a8879f6d38e.jpeg');
+    position: relative;
+}
+
+input:checked + label[for="c1"] {
+    width: 800px; /* Ширина для картки c1 */
+}
+
+input:checked + label[for="c2"] {
+    width: 300px; /* Ширина для картки c1 */
+}
+
+input:checked + label[for="c3"] {
+    width: 820px; /* Ширина для картки c3 */
+}
+
+input:checked + label[for="c4"] {
+    width: 750px; /* Ширина для картки c4 */
+}
+
+.right-section .Port {
+    color: #323b4b;
+    font-size: 40px;
+}
+
+.right-section .port1 {
+    margin-top: -300px;
+}
+
+.right-section .port2 {
+    margin-top: 0px;
+}
+
+.right-section .port3 {
+    margin-top: 20px;
+}
+
+.right-section .port4 {
+    margin-top: 20px;
+}
+
+.right-section .hob{
+    margin-right: 200px;
+}
+
+.right-section .sport {
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.right-section .book {
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.right-section .game {
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+
+.switch {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    padding: 2px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -290px;
+    margin-left: -350px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-style: outset;
+    background-color: #4a576c;
+    transition: 0.4s;
+  }
+  
+  .slider::before {
+    content: "🌞";
+    font-size: 22px;
+    line-height: 15px;
+    border-radius: 100%;
+    position: absolute;
+    left: -0.8px;
+    top: 8px;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+  
+  .switch > input:checked + .slider {
+    background-color: #000429;
+  }
+  
+  .switch > input:checked + .slider:before {
+    content: "🌑";
+    font-size: 22px;
+    line-height: 25px;
+    background-color: transparent;
+    transform: translateY(24px);
+  }
+
+  .dark-theme {
+    background-color: #333; /* Змініть на потрібний вам темний фон */
+    color: white; /* Змініть на потрібний вам колір тексту для темної теми */
+}
+
+body.dark-theme .right-section h1,
+body.dark-theme .right-section h2,
+ body.dark-theme .right-section p {
+color: white;
+}
+
+
+body.dark-theme .right-section .about,
+body.dark-theme .right-section .more1,
+body.dark-theme .right-section .more2,
+body.dark-theme .right-section .more3 {
+color: rgb(70, 68, 68);
+}
+
+body.dark-theme .right-section .about {
+    color: white;
+}
+
+
+body.dark-theme .right-section .sport2,
+body.dark-theme .right-section .book2,
+body.dark-theme .right-section .game2 {
+    color: white;
+}
