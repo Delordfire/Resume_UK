@@ -416,8 +416,8 @@ input:checked + label[for="c4"] {
     padding: 2px;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: -290px;
-    margin-left: -350px;
+    margin-top: -350px;
+    margin-left: -420px;
   }
   
   .switch input {
